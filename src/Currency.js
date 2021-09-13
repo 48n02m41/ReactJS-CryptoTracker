@@ -6,6 +6,7 @@ const Currency = ({
   cryptosymbol,
   cryptoprice,
   cryptovolume,
+  cryptopercentchange,
 }) => {
   return (
     <div className="crypto-container">
@@ -19,7 +20,9 @@ const Currency = ({
         <div className="crypto-data">
           <p className="crypto-price">€{cryptoprice}</p>
           <p className="crypto-volume">€{cryptovolume.toLocaleString()}</p>
-          <p></p>
+          <p className="crypto-percent-change">
+            {cryptopercentchange.toFixed(2)}%
+          </p>
         </div>
       </div>
     </div>

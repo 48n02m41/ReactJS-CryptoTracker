@@ -51,6 +51,7 @@ function App() {
             cryptosymbol={crypto.symbol}
             cryptovolume={crypto.market_cap}
             cryptoprice={crypto.current_price}
+            cryptopercentchange={crypto.price_change_percentage_24h}
           ></Currency>
         );
       })}
