@@ -11,7 +11,9 @@ const Currency = ({
 }) => {
   return (
     <tr>
-      <img className="img-fluid" src={cryptoimage} alt="cryptoimage" />
+      <td>
+        <img className="img-fluid" src={cryptoimage} alt="cryptoimage" />
+      </td>
       <td>{cryptoname}</td>
       <td className="crypto-symbol">{cryptosymbol}</td>
 
@@ -20,9 +22,7 @@ const Currency = ({
       <td className="crypto-percent-change">
         {cryptopercentchange.toFixed(2)}%
       </td>
-      <td className="crypto-marketcap">
-        Market Cap: €{cryptomarketcap.toLocaleString()}
-      </td>
+      <td className="crypto-marketcap">€{cryptomarketcap.toLocaleString()}</td>
     </tr>
   );
 };

@@ -38,19 +38,19 @@ function App() {
             className="form-control form-control-lg"
             id="input1"
           />
-          <label for="input1">Search currencies</label>
+          <label htmlFor="input1">Search currencies</label>
         </div>
       </div>
 
-      <table>
+      <table className="table table-dark table-striped">
         <thead>
           <tr>
+            <th scope="col"> </th>
             <th scope="col">Name</th>
-            <th scope="col">Image</th>
-            <th scope="col">Symbol</th>
-            <th scope="col">M. Cap</th>
+            <th scope="col"> </th>
+            <th scope="col">Cap</th>
             <th scope="col">Price</th>
-            <th scope="col">Percent Change</th>
+            <th scope="col">24hr Change</th>
             <th scope="col">Volume</th>
           </tr>
         </thead>
