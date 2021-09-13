@@ -2,6 +2,7 @@ import axios from "axios";
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import Currency from "./Currency";
+import Nav from "./Nav";
 
 function App() {
   const [search, setSearch] = useState("");
@@ -29,7 +30,11 @@ function App() {
 
   return (
     <div className="container">
+      <Nav />
       <div className="mb-3">
+        <h1 class="display-1">CryptoTracker</h1>
+        <br />
+
         <div className="form-floating searchbar">
           <input
             type="text"
@@ -42,6 +47,7 @@ function App() {
         </div>
       </div>
 
+      <br />
       <table className="table table-dark table-striped">
         <thead>
           <tr>
