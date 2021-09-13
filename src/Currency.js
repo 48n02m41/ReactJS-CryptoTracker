@@ -17,7 +17,7 @@ const Currency = ({
       <td>{cryptoname}</td>
       <td className="crypto-symbol">{cryptosymbol.toUpperCase()}</td>
 
-      <td className="crypto-price">€{cryptoprice}</td>
+      <td className="crypto-price">€{cryptoprice.toLocaleString()}</td>
       <td className="crypto-volume">€{cryptovolume.toLocaleString()}</td>
       <td className="crypto-percent-change">
         <div

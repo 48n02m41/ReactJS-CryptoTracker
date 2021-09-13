@@ -54,10 +54,10 @@ function App() {
             <th scope="col"> </th>
             <th scope="col">Name</th>
             <th scope="col"> </th>
-            <th scope="col">Cap</th>
             <th scope="col">Price</th>
-            <th scope="col">24hr Change</th>
-            <th scope="col">Volume</th>
+            <th scope="col">Volume (24hr)</th>
+            <th scope="col">% Change (24hr)</th>
+            <th scope="col">Market Cap</th>
           </tr>
         </thead>
         <tbody>
