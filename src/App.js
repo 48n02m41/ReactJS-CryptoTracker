@@ -5,7 +5,6 @@ import './App.css';
 
 function App() {
 
-  const [coins, setCoins] = useState([]);
   const [search, setSearch] = useState('');
   const [cryptocoins, setCryptoCoins] = useState([]);
 
@@ -19,7 +18,15 @@ function App() {
     .catch(error => console.log(error));
   }, []);
 
+  const filteredCryptoCoins = cryptocoins.filter(cryptocoin =>
+    cryptocoin.name
+    .toLowerCase()
+    .includes(search.toLowerCase())
+  );
 
+  const handleChange = e => {
+    setSearch(e.target.value);
+  }
 
   return (
     <div className="App">
