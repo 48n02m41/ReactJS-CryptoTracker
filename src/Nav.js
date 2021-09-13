@@ -6,7 +6,7 @@ const Nav = () => {
       <ul className="nav justify-content-end">
         <li className="nav-item">
           <a
-            className="nav-link"
+            className="text-white nav-link"
             target="_blank"
             rel="noreferrer"
             href="https://github.com/48n02m41"
@@ -16,7 +16,7 @@ const Nav = () => {
         </li>
         <li className="nav-item">
           <a
-            className="nav-link"
+            className="text-white nav-link"
             target="_blank"
             rel="noreferrer"
             href="https://twitter.com/48n02m41"

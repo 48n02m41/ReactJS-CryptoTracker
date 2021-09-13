@@ -29,13 +29,13 @@ function App() {
   };
 
   return (
-    <div className="container">
+    <div className="container-fluid bg-dark text-white">
       <Nav />
       <div className="mb-3">
         <h1 class="display-1">CryptoTracker</h1>
         <br />
 
-        <div className="form-floating searchbar">
+        <div className="form-floating searchbar text-dark">
           <input
             type="text"
             placeholder="Search"
