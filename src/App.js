@@ -28,18 +28,18 @@ function App() {
   };
 
   return (
-    <div className="toplevel">
-      <div className="searchbar">
-        <h1 className="text">Search currencies</h1>
-
-        <form>
+    <div className="container">
+      <div className="mb-3">
+        <div className="form-floating searchbar">
           <input
             type="text"
             placeholder="Search"
             onChange={handleChange}
-            className="input"
+            className="form-control form-control-lg"
+            id="input1"
           />
-        </form>
+          <label for="input1">Search currencies</label>
+        </div>
       </div>
 
       {filteredCryptoCoins.map((crypto) => {

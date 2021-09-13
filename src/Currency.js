@@ -13,7 +13,7 @@ const Currency = ({
     <div className="crypto-container">
       <div className="crypto-row">
         <div className="crypto">
-          <img src={cryptoimage} alt="cryptoimage" />
+          <img className="img-fluid" src={cryptoimage} alt="cryptoimage" />
           <h1>{cryptoname}</h1>
           <p className="crypto-symbol">{cryptosymbol}</p>
         </div>
