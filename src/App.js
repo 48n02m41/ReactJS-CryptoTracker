@@ -42,20 +42,35 @@ function App() {
         </div>
       </div>
 
-      {filteredCryptoCoins.map((crypto) => {
-        return (
-          <Currency
-            key={crypto.id}
-            cryptoname={crypto.name}
-            cryptoimage={crypto.image}
-            cryptosymbol={crypto.symbol}
-            cryptomarketcap={crypto.market_cap}
-            cryptoprice={crypto.current_price}
-            cryptopercentchange={crypto.price_change_percentage_24h}
-            cryptovolume={crypto.total_volume}
-          ></Currency>
-        );
-      })}
+      <table>
+        <thead>
+          <tr>
+            <th scope="col">Name</th>
+            <th scope="col">Image</th>
+            <th scope="col">Symbol</th>
+            <th scope="col">M. Cap</th>
+            <th scope="col">Price</th>
+            <th scope="col">Percent Change</th>
+            <th scope="col">Volume</th>
+          </tr>
+        </thead>
+        <tbody>
+          {filteredCryptoCoins.map((crypto) => {
+            return (
+              <Currency
+                key={crypto.id}
+                cryptoname={crypto.name}
+                cryptoimage={crypto.image}
+                cryptosymbol={crypto.symbol}
+                cryptomarketcap={crypto.market_cap}
+                cryptoprice={crypto.current_price}
+                cryptopercentchange={crypto.price_change_percentage_24h}
+                cryptovolume={crypto.total_volume}
+              ></Currency>
+            );
+          })}
+        </tbody>
+      </table>
     </div>
   );
 }
