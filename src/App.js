@@ -29,9 +29,20 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <h1>Stuff</h1>
-    </div>
+    
+<div className='toplevel'>
+
+  <div className='searchbar'>
+    <h1 className='text'>Search currencies</h1>
+
+    <form>
+      <input type="text" placeholder="Search" className="input" />
+    </form>
+
+  </div>
+
+</div>
+
   );
 }
 
