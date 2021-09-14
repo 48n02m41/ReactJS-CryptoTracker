@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/ReactJS-CryptoTracker/static/css/main.f101a47c.chunk.css",
-    "main.js": "/ReactJS-CryptoTracker/static/js/main.81f649f1.chunk.js",
-    "main.js.map": "/ReactJS-CryptoTracker/static/js/main.81f649f1.chunk.js.map",
-    "runtime-main.js": "/ReactJS-CryptoTracker/static/js/runtime-main.dbec3a1c.js",
-    "runtime-main.js.map": "/ReactJS-CryptoTracker/static/js/runtime-main.dbec3a1c.js.map",
-    "static/js/2.6c9a9df1.chunk.js": "/ReactJS-CryptoTracker/static/js/2.6c9a9df1.chunk.js",
-    "static/js/2.6c9a9df1.chunk.js.map": "/ReactJS-CryptoTracker/static/js/2.6c9a9df1.chunk.js.map",
-    "index.html": "/ReactJS-CryptoTracker/index.html",
-    "static/css/main.f101a47c.chunk.css.map": "/ReactJS-CryptoTracker/static/css/main.f101a47c.chunk.css.map",
-    "static/js/2.6c9a9df1.chunk.js.LICENSE.txt": "/ReactJS-CryptoTracker/static/js/2.6c9a9df1.chunk.js.LICENSE.txt"
+    "main.css": "/48n02m41/ReactJS-CryptoTracker/static/css/main.2fcae8eb.chunk.css",
+    "main.js": "/48n02m41/ReactJS-CryptoTracker/static/js/main.81f649f1.chunk.js",
+    "main.js.map": "/48n02m41/ReactJS-CryptoTracker/static/js/main.81f649f1.chunk.js.map",
+    "runtime-main.js": "/48n02m41/ReactJS-CryptoTracker/static/js/runtime-main.15a6fcae.js",
+    "runtime-main.js.map": "/48n02m41/ReactJS-CryptoTracker/static/js/runtime-main.15a6fcae.js.map",
+    "static/js/2.6c9a9df1.chunk.js": "/48n02m41/ReactJS-CryptoTracker/static/js/2.6c9a9df1.chunk.js",
+    "static/js/2.6c9a9df1.chunk.js.map": "/48n02m41/ReactJS-CryptoTracker/static/js/2.6c9a9df1.chunk.js.map",
+    "index.html": "/48n02m41/ReactJS-CryptoTracker/index.html",
+    "static/css/main.2fcae8eb.chunk.css.map": "/48n02m41/ReactJS-CryptoTracker/static/css/main.2fcae8eb.chunk.css.map",
+    "static/js/2.6c9a9df1.chunk.js.LICENSE.txt": "/48n02m41/ReactJS-CryptoTracker/static/js/2.6c9a9df1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.dbec3a1c.js",
+    "static/js/runtime-main.15a6fcae.js",
     "static/js/2.6c9a9df1.chunk.js",
-    "static/css/main.f101a47c.chunk.css",
+    "static/css/main.2fcae8eb.chunk.css",
     "static/js/main.81f649f1.chunk.js"
   ]
 }
