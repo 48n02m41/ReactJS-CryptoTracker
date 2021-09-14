@@ -1,4 +1,8 @@
 
+body {
+  background-color: black;
+}
+
 .img-fluid {
   max-height: 32px;
 }
